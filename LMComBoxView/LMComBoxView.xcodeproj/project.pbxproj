@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE675C32199DACF200BA9485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE675C31199DACF200BA9485 /* Foundation.framework */; };
+		DE675C34199DACF200BA9485 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE675C33199DACF200BA9485 /* CoreGraphics.framework */; };
+		DE675C36199DACF200BA9485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE675C35199DACF200BA9485 /* UIKit.framework */; };
+		DE675C3C199DACF200BA9485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE675C3A199DACF200BA9485 /* InfoPlist.strings */; };
+		DE675C3E199DACF200BA9485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE675C3D199DACF200BA9485 /* main.m */; };
+		DE675C42199DACF200BA9485 /* YLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE675C41199DACF200BA9485 /* YLAppDelegate.m */; };
+		DE675C44199DACF200BA9485 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE675C43199DACF200BA9485 /* Images.xcassets */; };
+		DE675C4B199DACF200BA9485 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE675C4A199DACF200BA9485 /* XCTest.framework */; };
+		DE675C4C199DACF200BA9485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE675C31199DACF200BA9485 /* Foundation.framework */; };
+		DE675C4D199DACF200BA9485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE675C35199DACF200BA9485 /* UIKit.framework */; };
+		DE675C55199DACF300BA9485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE675C53199DACF300BA9485 /* InfoPlist.strings */; };
+		DE675C57199DACF300BA9485 /* LMComBoxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE675C56199DACF300BA9485 /* LMComBoxViewTests.m */; };
+		DE675C66199DAD3800BA9485 /* LMComBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE675C63199DAD3800BA9485 /* LMComBoxView.m */; };
+		DE675C67199DAD3800BA9485 /* LMContainsLMComboxScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE675C65199DAD3800BA9485 /* LMContainsLMComboxScrollView.m */; };
+		DE675C6A199DAD6800BA9485 /* LMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE675C69199DAD6800BA9485 /* LMMainViewController.m */; };
+		DE675C6D199DADB900BA9485 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE675C6C199DADB900BA9485 /* area.plist */; };
+		DE675C6F199DAF7300BA9485 /* down_dark0.png in Resources */ = {isa = PBXBuildFile; fileRef = DE675C6E199DAF7300BA9485 /* down_dark0.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE675C4E199DACF300BA9485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE675C26199DACF200BA9485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE675C2D199DACF200BA9485;
+			remoteInfo = LMComBoxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE675C2E199DACF200BA9485 /* LMComBoxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMComBoxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE675C31199DACF200BA9485 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE675C33199DACF200BA9485 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE675C35199DACF200BA9485 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE675C39199DACF200BA9485 /* LMComBoxView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LMComBoxView-Info.plist"; sourceTree = "<group>"; };
+		DE675C3B199DACF200BA9485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE675C3D199DACF200BA9485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE675C3F199DACF200BA9485 /* LMComBoxView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LMComBoxView-Prefix.pch"; sourceTree = "<group>"; };
+		DE675C40199DACF200BA9485 /* YLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAppDelegate.h; sourceTree = "<group>"; };
+		DE675C41199DACF200BA9485 /* YLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAppDelegate.m; sourceTree = "<group>"; };
+		DE675C43199DACF200BA9485 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE675C49199DACF200BA9485 /* LMComBoxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMComBoxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE675C4A199DACF200BA9485 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DE675C52199DACF300BA9485 /* LMComBoxViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LMComBoxViewTests-Info.plist"; sourceTree = "<group>"; };
+		DE675C54199DACF300BA9485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE675C56199DACF300BA9485 /* LMComBoxViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMComBoxViewTests.m; sourceTree = "<group>"; };
+		DE675C62199DAD3800BA9485 /* LMComBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMComBoxView.h; sourceTree = "<group>"; };
+		DE675C63199DAD3800BA9485 /* LMComBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMComBoxView.m; sourceTree = "<group>"; };
+		DE675C64199DAD3800BA9485 /* LMContainsLMComboxScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMContainsLMComboxScrollView.h; sourceTree = "<group>"; };
+		DE675C65199DAD3800BA9485 /* LMContainsLMComboxScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMContainsLMComboxScrollView.m; sourceTree = "<group>"; };
+		DE675C68199DAD6800BA9485 /* LMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMainViewController.h; sourceTree = "<group>"; };
+		DE675C69199DAD6800BA9485 /* LMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMainViewController.m; sourceTree = "<group>"; };
+		DE675C6C199DADB900BA9485 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		DE675C6E199DAF7300BA9485 /* down_dark0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_dark0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE675C2B199DACF200BA9485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE675C34199DACF200BA9485 /* CoreGraphics.framework in Frameworks */,
+				DE675C36199DACF200BA9485 /* UIKit.framework in Frameworks */,
+				DE675C32199DACF200BA9485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE675C46199DACF200BA9485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE675C4B199DACF200BA9485 /* XCTest.framework in Frameworks */,
+				DE675C4D199DACF200BA9485 /* UIKit.framework in Frameworks */,
+				DE675C4C199DACF200BA9485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE675C25199DACF200BA9485 = {
+			isa = PBXGroup;
+			children = (
+				DE675C6B199DADB900BA9485 /* Data */,
+				DE675C61199DAD3800BA9485 /* LMComBox */,
+				DE675C37199DACF200BA9485 /* LMComBoxView */,
+				DE675C50199DACF300BA9485 /* LMComBoxViewTests */,
+				DE675C30199DACF200BA9485 /* Frameworks */,
+				DE675C2F199DACF200BA9485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE675C2F199DACF200BA9485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C2E199DACF200BA9485 /* LMComBoxView.app */,
+				DE675C49199DACF200BA9485 /* LMComBoxViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE675C30199DACF200BA9485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C31199DACF200BA9485 /* Foundation.framework */,
+				DE675C33199DACF200BA9485 /* CoreGraphics.framework */,
+				DE675C35199DACF200BA9485 /* UIKit.framework */,
+				DE675C4A199DACF200BA9485 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE675C37199DACF200BA9485 /* LMComBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C40199DACF200BA9485 /* YLAppDelegate.h */,
+				DE675C41199DACF200BA9485 /* YLAppDelegate.m */,
+				DE675C43199DACF200BA9485 /* Images.xcassets */,
+				DE675C38199DACF200BA9485 /* Supporting Files */,
+				DE675C68199DAD6800BA9485 /* LMMainViewController.h */,
+				DE675C69199DAD6800BA9485 /* LMMainViewController.m */,
+			);
+			path = LMComBoxView;
+			sourceTree = "<group>";
+		};
+		DE675C38199DACF200BA9485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C39199DACF200BA9485 /* LMComBoxView-Info.plist */,
+				DE675C3A199DACF200BA9485 /* InfoPlist.strings */,
+				DE675C3D199DACF200BA9485 /* main.m */,
+				DE675C3F199DACF200BA9485 /* LMComBoxView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE675C50199DACF300BA9485 /* LMComBoxViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C56199DACF300BA9485 /* LMComBoxViewTests.m */,
+				DE675C51199DACF300BA9485 /* Supporting Files */,
+			);
+			path = LMComBoxViewTests;
+			sourceTree = "<group>";
+		};
+		DE675C51199DACF300BA9485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C52199DACF300BA9485 /* LMComBoxViewTests-Info.plist */,
+				DE675C53199DACF300BA9485 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE675C61199DAD3800BA9485 /* LMComBox */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C62199DAD3800BA9485 /* LMComBoxView.h */,
+				DE675C63199DAD3800BA9485 /* LMComBoxView.m */,
+				DE675C64199DAD3800BA9485 /* LMContainsLMComboxScrollView.h */,
+				DE675C65199DAD3800BA9485 /* LMContainsLMComboxScrollView.m */,
+			);
+			path = LMComBox;
+			sourceTree = "<group>";
+		};
+		DE675C6B199DADB900BA9485 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE675C6E199DAF7300BA9485 /* down_dark0.png */,
+				DE675C6C199DADB900BA9485 /* area.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE675C2D199DACF200BA9485 /* LMComBoxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE675C5A199DACF300BA9485 /* Build configuration list for PBXNativeTarget "LMComBoxView" */;
+			buildPhases = (
+				DE675C2A199DACF200BA9485 /* Sources */,
+				DE675C2B199DACF200BA9485 /* Frameworks */,
+				DE675C2C199DACF200BA9485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMComBoxView;
+			productName = LMComBoxView;
+			productReference = DE675C2E199DACF200BA9485 /* LMComBoxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE675C48199DACF200BA9485 /* LMComBoxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE675C5D199DACF300BA9485 /* Build configuration list for PBXNativeTarget "LMComBoxViewTests" */;
+			buildPhases = (
+				DE675C45199DACF200BA9485 /* Sources */,
+				DE675C46199DACF200BA9485 /* Frameworks */,
+				DE675C47199DACF200BA9485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE675C4F199DACF300BA9485 /* PBXTargetDependency */,
+			);
+			name = LMComBoxViewTests;
+			productName = LMComBoxViewTests;
+			productReference = DE675C49199DACF200BA9485 /* LMComBoxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE675C26199DACF200BA9485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YL;
+				TargetAttributes = {
+					DE675C48199DACF200BA9485 = {
+						TestTargetID = DE675C2D199DACF200BA9485;
+					};
+				};
+			};
+			buildConfigurationList = DE675C29199DACF200BA9485 /* Build configuration list for PBXProject "LMComBoxView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE675C25199DACF200BA9485;
+			productRefGroup = DE675C2F199DACF200BA9485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE675C2D199DACF200BA9485 /* LMComBoxView */,
+				DE675C48199DACF200BA9485 /* LMComBoxViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE675C2C199DACF200BA9485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE675C3C199DACF200BA9485 /* InfoPlist.strings in Resources */,
+				DE675C44199DACF200BA9485 /* Images.xcassets in Resources */,
+				DE675C6F199DAF7300BA9485 /* down_dark0.png in Resources */,
+				DE675C6D199DADB900BA9485 /* area.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE675C47199DACF200BA9485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE675C55199DACF300BA9485 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE675C2A199DACF200BA9485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE675C67199DAD3800BA9485 /* LMContainsLMComboxScrollView.m in Sources */,
+				DE675C3E199DACF200BA9485 /* main.m in Sources */,
+				DE675C6A199DAD6800BA9485 /* LMMainViewController.m in Sources */,
+				DE675C42199DACF200BA9485 /* YLAppDelegate.m in Sources */,
+				DE675C66199DAD3800BA9485 /* LMComBoxView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE675C45199DACF200BA9485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE675C57199DACF300BA9485 /* LMComBoxViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE675C4F199DACF300BA9485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE675C2D199DACF200BA9485 /* LMComBoxView */;
+			targetProxy = DE675C4E199DACF300BA9485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE675C3A199DACF200BA9485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE675C3B199DACF200BA9485 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE675C53199DACF300BA9485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE675C54199DACF300BA9485 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE675C58199DACF300BA9485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE675C59199DACF300BA9485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE675C5B199DACF300BA9485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LMComBoxView/LMComBoxView-Prefix.pch";
+				INFOPLIST_FILE = "LMComBoxView/LMComBoxView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE675C5C199DACF300BA9485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LMComBoxView/LMComBoxView-Prefix.pch";
+				INFOPLIST_FILE = "LMComBoxView/LMComBoxView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE675C5E199DACF300BA9485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LMComBoxView.app/LMComBoxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LMComBoxView/LMComBoxView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LMComBoxViewTests/LMComBoxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DE675C5F199DACF300BA9485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LMComBoxView.app/LMComBoxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LMComBoxView/LMComBoxView-Prefix.pch";
+				INFOPLIST_FILE = "LMComBoxViewTests/LMComBoxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE675C29199DACF200BA9485 /* Build configuration list for PBXProject "LMComBoxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE675C58199DACF300BA9485 /* Debug */,
+				DE675C59199DACF300BA9485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE675C5A199DACF300BA9485 /* Build configuration list for PBXNativeTarget "LMComBoxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE675C5B199DACF300BA9485 /* Debug */,
+				DE675C5C199DACF300BA9485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE675C5D199DACF300BA9485 /* Build configuration list for PBXNativeTarget "LMComBoxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE675C5E199DACF300BA9485 /* Debug */,
+				DE675C5F199DACF300BA9485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE675C26199DACF200BA9485 /* Project object */;
+}

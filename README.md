@@ -1,4 +1,5 @@
 lumin
 =====
-This is free.
-contact me:lqcjdx@163.com
+这是一个仿.net中的Combox控件的下拉菜单
+
+
